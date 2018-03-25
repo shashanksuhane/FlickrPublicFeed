@@ -1,7 +1,5 @@
 package com.suhane.flickr.repository.data.remote;
 
-import android.content.ComponentName;
-
 import com.suhane.flickr.FlickrPFApplication;
 import com.suhane.flickr.common.Constants;
 import com.suhane.flickr.repository.data.PhotoSearchAPI;
