@@ -1,4 +1,8 @@
 # FlickrPublicFeed
+
+![alt text](FlickrPublicFeed.gif)
+
+
 This project is an Android App which makes use of flickr photo search API to get the photos and allows the user to navigate through them.
 
 **Approach**
