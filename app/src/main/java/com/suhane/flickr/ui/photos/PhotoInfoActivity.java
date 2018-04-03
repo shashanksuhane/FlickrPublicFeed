@@ -93,8 +93,10 @@ public class PhotoInfoActivity extends BaseActivity implements PhotoInfoViewMode
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(Intent.ACTION_VIEW);
-                i.setData(Uri.parse(photo.getUrlC()));
-                startActivity(i);
+                if (photo.getUrlC() != null) {
+                    i.setData(Uri.parse(photo.getUrlC()));
+                    startActivity(i);
+                }
             }
         });
 
